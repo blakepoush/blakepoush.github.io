@@ -11,11 +11,6 @@
     src: url('../fonts/Aristotelica-Display-Regular.ttf');
 }
 
-.title{
-	font-family: 'Aristotelica', Verdana, sans-serif;
-    font-size: 4rem;
-}
-
 html{
     scroll-behavior: smooth;
     height: auto;
@@ -31,11 +26,17 @@ a{
 .content-view{
     min-height: 100vh;
     scroll-snap-align: start;
-    background: var(--light);
+    background: var(--main);
     margin: 0 !important;
 }
+
 #title{
     background: var(--highlight);
+}
+
+.title{
+	font-family: 'Aristotelica', Verdana, sans-serif;
+    font-size: 5vw;
 }
 
 #about{
@@ -43,7 +44,7 @@ a{
 }
 
 #contact{
-    background: var(--main);
+    background: var(--color-dark);
 }
 
 .fa-arrow-alt-circle-up{
@@ -53,14 +54,16 @@ a{
 }
 
 .nav-btn{
+    border-radius: 100px;
     min-height: 100%;
+    width: 100%;
     margin: 0;
     color: var(--color-light);
     -webkit-transition: background 0.5s;
     transition: background 0.5s;
-    font-size: 5rem;
 }
 .nav-btn:hover{
+    border-radius: 100px;
     color: var(--color-light);
     background: var(--color-dark);
 }
@@ -75,6 +78,7 @@ a{
     color: var(--color-light);
     text-decoration: none;
     font-family: 'Aristotelica', Verdana, sans-serif;
+    font-size: 5vw;
 }
 
 .btn-text:hover{
@@ -84,5 +88,23 @@ a{
 
 .navigation{
     min-height: 20vh; 
-    width: 50%;
+
 }
+
+@media (max-width: 1024px) {
+    .title{font-size: 6vw;}
+    .btn-text{font-size: 6vw;}    
+}
+@media (max-width: 768px) {
+    .title{font-size: 10vw;}
+    .btn-text{font-size: 10vw;}
+}
+@media (max-width: 481px) {
+    .title{font-size: 14vw;}
+    .btn-text{font-size: 14vw;}
+}  
+
+@media (max-width: 385px) {
+    .title{font-size: 12vw;}
+    .btn-text{font-size: 12vw;}
+}  
