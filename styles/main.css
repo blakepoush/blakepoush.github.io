@@ -104,6 +104,7 @@ a{
 @media (max-width: 768px) {
     .title{font-size: 10vw;}
     .btn-text{font-size: 10vw;}
+    #email h3{font-size: 1.5rem;}
 }
 @media (max-width: 481px) {
     .title{font-size: 14vw;}
