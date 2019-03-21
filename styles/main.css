@@ -40,11 +40,17 @@ a{
 }
 
 #about{
+    font-family: 'Raleway', sans-serif;
     background: var(--dark);
 }
 
 #contact{
+    font-family: 'Raleway', sans-serif;
     background: var(--color-dark);
+}
+
+#email{
+    cursor: pointer !important;
 }
 
 .fa-arrow-alt-circle-up{
