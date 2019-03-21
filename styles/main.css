@@ -1,0 +1,88 @@
+:root{
+    --main: rgba(204, 201, 161, 1);
+    --color-light: rgba(240, 255, 206, 1);
+    --highlight: rgba(165, 63, 43, 1);
+    --highlight-dark: rgba(76, 35, 10, 1);
+    --color-dark: rgba(40, 0, 4, 1);
+}
+
+@font-face {
+    font-family: 'Aristotelica';
+    src: url('../fonts/Aristotelica-Display-Regular.ttf');
+}
+
+.title{
+	font-family: 'Aristotelica', Verdana, sans-serif;
+    font-size: 4rem;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: auto;
+}
+body{
+    background: var(--light) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none;
+}
+.content-view{
+    min-height: 100vh;
+    scroll-snap-align: start;
+    background: var(--light);
+    margin: 0 !important;
+}
+#title{
+    background: var(--highlight);
+}
+
+#about{
+    background: var(--dark);
+}
+
+#contact{
+    background: var(--main);
+}
+
+.fa-arrow-alt-circle-up{
+    font-size: 35pt;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-btn{
+    min-height: 100%;
+    margin: 0;
+    color: var(--color-light);
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+    font-size: 5rem;
+}
+.nav-btn:hover{
+    color: var(--color-light);
+    background: var(--color-dark);
+}
+
+.nav-btn a{
+    padding: auto;
+    display: block;
+    text-align: center;
+}
+
+.btn-text{
+    color: var(--color-light);
+    text-decoration: none;
+    font-family: 'Aristotelica', Verdana, sans-serif;
+}
+
+.btn-text:hover{
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.navigation{
+    min-height: 20vh; 
+    width: 50%;
+}
