@@ -41,12 +41,12 @@ a{
 
 #about{
     font-family: 'Raleway', sans-serif;
-    background: var(--dark);
+    background: var(--color-dark);
 }
 
 #contact{
     font-family: 'Raleway', sans-serif;
-    background: var(--color-dark);
+    background: var(--highlight);
 }
 
 #email{
