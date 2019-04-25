@@ -53,6 +53,10 @@ a{
     cursor: pointer !important;
 }
 
+#top{
+    opacity: 0;
+}
+
 .fa-arrow-alt-circle-up{
     font-size: 35pt;
     cursor: pointer;

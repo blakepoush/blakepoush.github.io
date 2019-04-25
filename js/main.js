@@ -1,10 +1,9 @@
 window.onscroll = function() {scrollFunction()};
-window.onload = function() {hideButton()};
 function scrollFunction() {
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-    document.getElementById("top").style.display = "block";
+    document.getElementById("top").style.opacity = 100;
   } else {
-    document.getElementById("top").style.display = "none";
+    document.getElementById("top").style.opacity = 0;
   }
 }
 
@@ -12,8 +11,4 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
-
-function hideButton(){
-    document.getElementById("top").style.display = "none";
 }
