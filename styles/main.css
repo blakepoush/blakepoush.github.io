@@ -44,14 +44,9 @@ a{
     background: var(--color-dark);
 }
 
-#projects{
-    font-family: 'Raleway', sans-serif;
-    background: var(--highlight);
-}
-
 #contact{
     font-family: 'Raleway', sans-serif;
-    background: var(--color-dark);
+    background: var(--highlight);
 }
 
 #email{
